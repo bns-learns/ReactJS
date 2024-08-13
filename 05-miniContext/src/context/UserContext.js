@@ -3,6 +3,7 @@
 import React from "react";
 
 const UserContext = React.createContext();
+// createContext() creates an object like a global variable that allows the sharing of data between components.
 
 export default UserContext;
 

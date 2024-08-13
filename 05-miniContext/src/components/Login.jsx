@@ -9,6 +9,8 @@ function Login() {
 
     //updating the value of User. using the contextAPI here.
     const setUser = useContext(UserContext);
+    // UserContext was a variable wherein the CONTEXT was CREATED.
+    // useContext will obviously take the variable that has the context as input.
 
     const handleSubmit = (e) => {
         e.preventDefault(); //in order to prevent the passing of value (unnecessary in this case)
